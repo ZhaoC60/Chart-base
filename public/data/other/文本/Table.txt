@@ -1,0 +1,204 @@
+<template>
+  <div class="table">
+    <ul class="FJ_GZZDYJLB_Nav" :style="{ height: TableStyle.NavHeight, width: TableStyle.TableWidth }">
+      <li v-for="(item, index) of NavData" :key="index" :style="{ lineHeight: TableStyle.NavlineHeight, marginTop: TableStyle.NavTop }">{{ item }}</li>
+    </ul>
+    <div :style="{ width: TableStyle.TableWidth }" class="swiper_wraper FJ_GZZDYJLB_Content" @mouseenter="enterSwiper" @mouseleave="leaveSwiper">
+      <swiper
+        v-if="Data.length > 1"
+        class="wrap"
+        ref="mySwiper"
+        :options="swiperOptions"
+        :auto-update="true"
+        :auto-destroy="true"
+        :delete-instance-on-destroy="true"
+        :cleanup-styles-on-destroy="true"
+      >
+        <swiperSlide class="swipe_inner" v-for="(item, index) of Data" :key="index">
+          <div>{{ item.id }}</div>
+          <div>{{ item.time }}</div>
+          <div>{{ item.content }}</div>
+          <div>{{ item.status }}</div>
+          <div>{{ item.istime }}</div>
+        </swiperSlide>
+      </swiper>
+    </div>
+  </div>
+</template>
+
+<script>
+import { swiper, swiperSlide } from 'vue-awesome-swiper';
+import 'swiper/dist/css/swiper.css';
+export default {
+  components: {
+    swiper,
+    swiperSlide,
+  },
+  props: {
+    NavData: {
+      type: Array,
+      default: () => {
+        return ['编号', '时间', '事件详情', '办结情况'];
+      },
+    },
+    TableStyle: {
+      type: Object,
+      default: () => {
+        return {
+          TableWidth: '700px',
+          NavHeight: '40px',
+          NavlineHeight: '40px',
+          NavTop: '0px',
+        };
+      },
+    },
+    Data: {
+      type: Array,
+      default: () => {
+        return [
+          {
+            id: 'B12322',
+            time: '2021-6-10',
+            content: '安防告警事件',
+            status: '已处理',
+          },
+          {
+            id: 'B12322',
+            time: '2021-6-10',
+            content: '安防告警事件',
+            status: '已处理',
+          },
+          {
+            id: 'B12322',
+            time: '2021-6-10',
+            content: '安防告警事件',
+            status: '已处理',
+          },
+          {
+            id: 'B12322',
+            time: '2021-6-10',
+            content: '安防告警事件',
+            status: '已处理',
+          },
+          {
+            id: 'B12322',
+            time: '2021-6-10',
+            content: '安防告警事件',
+            status: '已处理',
+          },
+          {
+            id: 'B12322',
+            time: '2021-6-10',
+            content: '安防告警事件',
+            status: '已处理',
+          },
+          {
+            id: 'B12322',
+            time: '2021-6-10',
+            content: '安防告警事件',
+            status: '已处理',
+          },
+        ];
+      },
+    },
+  },
+  data() {
+    return {
+      // 轮播图配置
+      swiperOptions: {
+        direction: 'vertical',
+        initialSlide: 0,
+        loop: true,
+        slidesPerView: 4,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+      },
+    };
+  },
+  methods: {
+    enterSwiper() {},
+    leaveSwiper() {},
+  },
+};
+</script>
+
+<style lang="less" scoped>
+.table {
+  width: 500px;
+  margin-left: 20px;
+  .FJ_GZZDYJLB_Nav {
+    margin-top: 10px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    background: #3e464f;
+    box-sizing: border-box;
+    li {
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+      font-family: '微软雅黑';
+      list-style: none;
+      &:nth-child(1) {
+        width: 50px;
+        margin-left: 15px;
+      }
+      &:nth-child(2) {
+        margin-left: 35px;
+        width: 180px;
+      }
+      &:nth-child(3) {
+        width: 220px;
+      }
+      &:nth-child(4) {
+        width: 222px;
+      }
+    }
+  }
+
+  .FJ_GZZDYJLB_Content {
+    width: 408px;
+    height: 200px;
+
+    .wrap {
+      height: 200px;
+    }
+    .swipe_inner {
+      height: 50px !important;
+      line-height: 50px;
+      box-sizing: border-box;
+      background: #104070;
+      font-size: 16px;
+      color: #f8f8f8;
+      font-family: '微软雅黑';
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      box-sizing: border-box;
+      &:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.2);
+      }
+      &:nth-child(even) {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      //   & > div:nth-child(1) {
+      //     width: 71px;
+      //   }
+      //   & > div:nth-child(2) {
+      //     width: 237px;
+      //   }
+      //   & > div:nth-child(3) {
+      //     width: 257px;
+      //   }
+      & > div:nth-child(4) {
+        //     width: 222px;
+        margin: 0 -30px 0 30px;
+      }
+    }
+  }
+}
+</style>
