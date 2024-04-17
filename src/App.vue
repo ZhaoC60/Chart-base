@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2023-07-18 21:27:29
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-03-26 03:21:36
+ * @LastEditTime: 2024-04-17 18:13:39
  * @FilePath: \webpage\src\App.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -93,15 +93,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  font-family: '碳纤维正中黑简体';
+  font-family: '微软雅黑';
   .main {
     width: 100%;
     height: 100%;
   }
 }
 @font-face {
-  font-family: '腾祥智黑简';
-  src: url('./assets/font/腾祥智黑简.TTF');
+  font-family: '微软雅黑';
 }
 .footer {
   width: 100%;

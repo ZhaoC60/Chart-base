@@ -67,7 +67,7 @@ export default {
   display: flex;
   .lefttime {
     width: 140px;
-    font-family: '腾祥智黑简';
+    font-family: '微软雅黑';
     font-size: 48px;
     color: #e9e9e9;
     letter-spacing: 3px;
@@ -75,13 +75,13 @@ export default {
   .date {
     width: 80px;
     .day {
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       font-size: 24px;
       color: #13bfff;
       line-height: 24px;
     }
     .week {
-      font-family: '碳纤维正中黑简体';
+      font-family: '黑体';
       font-size: 18px;
       line-height: 24px;
       color: #bff252;

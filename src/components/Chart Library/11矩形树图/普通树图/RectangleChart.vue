@@ -102,7 +102,7 @@ export default {
             label: {
               show: true,
               formatter: '{b}',
-              fontFamily: '腾祥智黑简',
+              fontFamily: '微软雅黑',
               fontSize: 16,
               color: '#000000',
             },

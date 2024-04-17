@@ -146,14 +146,14 @@ export default {
                   a: {
                     color: '#fff',
                     lineHeight: 30,
-                    fontFamily: '腾祥智黑简',
+                    fontFamily: '微软雅黑',
                     fontSize: 18,
                     align: 'center',
                   },
                   b: {
                     color: '#4CFFFF',
                     lineHeight: 30,
-                    fontFamily: '腾祥智黑简',
+                    fontFamily: '微软雅黑',
                     fontSize: 18,
                     align: 'center',
                   },

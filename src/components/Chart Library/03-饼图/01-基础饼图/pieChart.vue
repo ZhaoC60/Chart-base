@@ -317,12 +317,12 @@ export default {
       line-height: 40px;
       text-align: center;
       font-weight: '400';
-      font-family: '碳纤维正中黑简体';
+      font-family: '黑体';
     }
     .num {
       color: #f8f8f8;
       font-size: 48px;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       text-align: center;
       font-weight: '400';
     }
@@ -370,7 +370,7 @@ export default {
         .num {
           font-size: 30px;
           // padding-left: 40px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           font-weight: '400';
           overflow: hidden;
         }
@@ -399,7 +399,7 @@ export default {
           width: 40%;
           color: #e9e9e9;
           font-size: 15px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           text-align: center;
           font-weight: '400';
         }
@@ -437,7 +437,7 @@ export default {
         .num {
           font-size: 30px;
           padding-left: 60px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           overflow: hidden;
           font-weight: '400';
         }
@@ -446,7 +446,7 @@ export default {
           font-size: 15px;
           color: #e9e9e9;
           padding-left: 30px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           margin-left: auto;
         }
         .unit {
@@ -506,7 +506,7 @@ export default {
           background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
           -webkit-background-clip: text;
           // -webkit-text-fill-color: transparent;
-          font-family: '腾祥智黑简';
+          font-family: '微软雅黑';
           // margin-right: 20px;
         }
         .legend_value {
@@ -515,7 +515,7 @@ export default {
           top: 28px;
           font-size: 24px;
           color: #00dfff;
-          font-family: '腾祥智黑简';
+          font-family: '微软雅黑';
           line-height: 22px;
           // margin-right: 20px;
         }
@@ -566,7 +566,7 @@ export default {
         .legend_name {
           font-size: 24px;
           color: #aae3ff;
-          font-family: 'PingFang';
+          font-family: '黑体';
           line-height: 22px;
           // margin-left: 15px;
           width: 190px;
@@ -578,7 +578,7 @@ export default {
 
           height: 50px;
           color: transparent;
-          font-family: '腾祥智黑简';
+          font-family: '微软雅黑';
           background: linear-gradient(to bottom, #fff, #81bac9);
           -webkit-background-clip: text;
           color: transparent;

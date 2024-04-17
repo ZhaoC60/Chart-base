@@ -184,7 +184,7 @@ export default {
               position: 'top',
               distance: 10,
               color: '#EBEBF9',
-              fontFamily: '腾祥智黑简',
+              fontFamily: '微软雅黑',
               fontSize: 24,
               formatter: function (p) {
                 return p.data + '%';

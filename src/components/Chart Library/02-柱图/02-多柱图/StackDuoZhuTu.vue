@@ -225,7 +225,7 @@ export default {
               textStyle: {
                 color: '#f8f8f8',
                 fontSize: 16,
-                fontFamily: 'PingFang',
+                fontFamily: '黑体',
               },
             },
             axisLine: {
@@ -246,7 +246,7 @@ export default {
               color: '#f8f8f8',
               fontSize: 16,
               padding: 2,
-              fontFamily: 'PingFang',
+              fontFamily: '黑体',
             },
             axisLabel: {
               //y轴文字的配置
@@ -308,7 +308,7 @@ export default {
               color: '#00FFFF',
               offset: [0, 1],
               position: 'top',
-              fontFamily: '腾祥智黑简',
+              fontFamily: '微软雅黑',
               fontSize: 18,
             },
           },
@@ -340,7 +340,7 @@ export default {
               formatter: '{c} ',
               color: '#00FFFF',
               offset: [0, 1],
-              fontFamily: '腾祥智黑简',
+              fontFamily: '微软雅黑',
               fontSize: 18,
             },
           },
@@ -392,7 +392,7 @@ export default {
               formatter: '{c} ',
               color: '#00FFFF',
               offset: [0, 1],
-              fontFamily: '腾祥智黑简',
+              fontFamily: '微软雅黑',
               fontSize: 18,
             },
           },
@@ -505,7 +505,7 @@ export default {
       span {
         margin-left: 7px;
         font-size: 14px;
-        font-family: 'PingFang';
+        font-family: '黑体';
         color: #f8f8f8;
       }
     }

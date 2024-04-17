@@ -40,7 +40,7 @@ export default {};
   font-size: 16px;
   font-weight: 500;
   box-sizing: border-box;
-  font-family: '腾祥智黑简';
+  font-family: '微软雅黑';
 }
 
 .main-container {
@@ -63,7 +63,7 @@ export default {};
   font-size: 38px;
   margin: 12px 0;
   margin-left: -7px;
-  font-family: '腾祥智黑简';
+  font-family: '微软雅黑';
   color: #c2c8d0;
 }
 
@@ -73,7 +73,7 @@ export default {};
   padding: 12px 24px;
   background-color: #c2c8d0;
   color: #21334d;
-  font-family: '腾祥智黑简';
+  font-family: '微软雅黑';
   border-radius: 48px;
   transition: 0.4s;
   text-decoration: none;

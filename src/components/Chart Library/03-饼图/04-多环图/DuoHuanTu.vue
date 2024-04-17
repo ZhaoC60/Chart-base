@@ -61,7 +61,7 @@ export default {
         return {
           color: '#f8f8f800',
           fontSize: 20,
-          fontFamily: 'PingFang',
+          fontFamily: '黑体',
           interval: 0,
         };
       },
@@ -213,12 +213,12 @@ export default {
         display: flex;
         flex-shrink: 0;
         flex-wrap: wrap;
-        font-family: 'PingFang SC';
+        font-family: '黑体';
         font-size: 22x;
         color: #f8f8f8;
       }
       .context_per {
-        font-family: '腾祥智黑简';
+        font-family: '微软雅黑';
         font-size: 30px;
       }
     }
@@ -262,7 +262,7 @@ export default {
     .legend_name {
       font-size: 24px;
       color: #f8f8f8;
-      font-family: 'PingFang SC';
+      font-family: '黑体';
       position: absolute;
       left: 0px;
       top: -9px;
@@ -275,7 +275,7 @@ export default {
       background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
       -webkit-background-clip: text;
       // -webkit-text-fill-color: transparent;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       // margin-right: 20px;
       top: -8px;
     }
@@ -285,7 +285,7 @@ export default {
       top: -5px;
       font-size: 30px;
       color: #dddddd;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       line-height: 40px;
       // margin-right: 20px;
     }

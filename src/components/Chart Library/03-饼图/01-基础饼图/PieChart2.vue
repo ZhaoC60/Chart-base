@@ -336,7 +336,7 @@ export default {
 
     .num {
       font-size: 26px;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       position: absolute;
       right: 0;
       margin-top: 2px;

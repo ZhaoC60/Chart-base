@@ -398,14 +398,14 @@ export default {
       font-size: 32px;
       line-height: 40px;
       font-weight: '400';
-      font-family: '碳纤维正中黑简体';
+      font-family: '黑体';
       background-image: -webkit-linear-gradient(top, #fff, #8dedf8);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .num {
       font-size: 100px;
-      font-family: 'Voltage';
+      font-family: '黑体';
       font-weight: '400';
       background-image: -webkit-linear-gradient(top, #fff, #8dedf8);
       -webkit-background-clip: text;
@@ -455,7 +455,7 @@ export default {
 
         .num {
           font-size: 30px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           font-weight: '400';
           overflow: hidden;
         }
@@ -484,7 +484,7 @@ export default {
           width: 40%;
           color: #e9e9e9;
           font-size: 15px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           text-align: center;
           font-weight: '400';
         }
@@ -522,7 +522,7 @@ export default {
         .num {
           font-size: 30px;
           padding-left: 60px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           overflow: hidden;
           font-weight: '400';
         }
@@ -531,7 +531,7 @@ export default {
           font-size: 15px;
           color: #e9e9e9;
           padding-left: 30px;
-          font-family: 'DINCond-Medium';
+          font-family: '黑体';
           margin-left: auto;
         }
         .unit {
@@ -603,7 +603,7 @@ export default {
           background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
           -webkit-background-clip: text;
           // -webkit-text-fill-color: transparent;
-          font-family: 'Voltage';
+          font-family: '黑体';
           // margin-right: 20px;
           top: -8px;
         }
@@ -613,7 +613,7 @@ export default {
           top: 15px;
           font-size: 40px;
           color: #dddddd;
-          font-family: 'Voltage';
+          font-family: '黑体';
           line-height: 40px;
           // margin-right: 20px;
         }
@@ -656,7 +656,7 @@ export default {
           top: 39px;
         }
         .legend_num {
-          font-family: 'Voltage';
+          font-family: '黑体';
           font-size: 40px;
         }
         .legend_color {
@@ -669,7 +669,7 @@ export default {
           text-indent: 12px;
           font-size: 24px;
           color: #aae3ff;
-          font-family: 'PingFang';
+          font-family: '黑体';
           line-height: 22px;
           // margin-left: 15px;
           width: 113px;
@@ -681,7 +681,7 @@ export default {
 
           height: 50px;
           color: transparent;
-          font-family: 'Voltage';
+          font-family: '黑体';
           background: linear-gradient(to bottom, #fff, #81bac9);
           -webkit-background-clip: text;
           color: transparent;
@@ -765,7 +765,7 @@ export default {
           background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
           -webkit-background-clip: text;
           // -webkit-text-fill-color: transparent;
-          font-family: 'Voltage';
+          font-family: '黑体';
           margin-right: 10px;
           top: 10px;
         }
@@ -777,7 +777,7 @@ export default {
           top: 15px;
           font-size: 40px;
           color: #dddddd;
-          font-family: 'Voltage';
+          font-family: '黑体';
           line-height: 40px;
           // margin-right: 20px;
         }
@@ -851,7 +851,7 @@ export default {
           background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
           -webkit-background-clip: text;
           // -webkit-text-fill-color: transparent;
-          font-family: 'Voltage';
+          font-family: '黑体';
           // margin-right: 20px;
           top: -8px;
         }
@@ -861,7 +861,7 @@ export default {
           top: 15px;
           font-size: 40px;
           color: #dddddd;
-          font-family: 'Voltage';
+          font-family: '黑体';
           line-height: 40px;
           // margin-right: 20px;
         }
@@ -935,7 +935,7 @@ export default {
           background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
           -webkit-background-clip: text;
           // -webkit-text-fill-color: transparent;
-          font-family: 'Voltage';
+          font-family: '黑体';
           // margin-right: 20px;
           top: -8px;
         }
@@ -945,7 +945,7 @@ export default {
           top: 15px;
           font-size: 40px;
           color: #dddddd;
-          font-family: 'Voltage';
+          font-family: '黑体';
           line-height: 40px;
           // margin-right: 20px;
         }

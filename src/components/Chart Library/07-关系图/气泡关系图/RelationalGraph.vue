@@ -104,7 +104,7 @@ export default {
                   c: {
                     fontSize: 36,
                     color: '#EDF9FF',
-                    fontFamily: '腾祥智黑简',
+                    fontFamily: '微软雅黑',
                     align: 'center',
                   },
                 },

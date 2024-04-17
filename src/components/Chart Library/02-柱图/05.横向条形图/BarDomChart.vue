@@ -95,7 +95,7 @@ export default {
     height: 34px;
     color: #fff;
     font-size: 30px;
-    font-family: 'DINCond-Medium';
+    font-family: '黑体';
     text-align: center;
     line-height: 30px;
     background: url('/img/charts/bar_bg.png') no-repeat;
@@ -106,7 +106,7 @@ export default {
     height: 34px;
     color: #fff;
     font-size: 30px;
-    font-family: 'DINCond-Medium';
+    font-family: '黑体';
     text-align: center;
     line-height: 30px;
     background: url('/img/charts/bar_bg1.png') no-repeat;
@@ -117,7 +117,7 @@ export default {
     height: 34px;
     color: #fff;
     font-size: 30px;
-    font-family: 'DINCond-Medium';
+    font-family: '黑体';
     text-align: center;
     line-height: 30px;
     background: url('/img/charts/bar_bg2.png') no-repeat;
@@ -128,7 +128,7 @@ export default {
     height: 34px;
     color: #fff;
     font-size: 30px;
-    font-family: 'DINCond-Medium';
+    font-family: '黑体';
     text-align: center;
     line-height: 30px;
     background: url('/img/charts/bar_bg3.png') no-repeat;
@@ -139,7 +139,7 @@ export default {
     height: 34px;
     color: #fff;
     font-size: 30px;
-    font-family: 'DINCond-Medium';
+    font-family: '黑体';
     text-align: center;
     line-height: 30px;
     background: url('/img/charts/bar_bg4.png') no-repeat;
@@ -195,7 +195,7 @@ export default {
     background: linear-gradient(to right, #1fefef, #ffffff);
   }
   .val {
-    font-family: '腾祥智黑简';
+    font-family: '微软雅黑';
     font-size: 36px;
     line-height: 42px;
     color: #fff;
@@ -205,7 +205,7 @@ export default {
     top: -7px;
   }
   .unit {
-    font-family: 'PingFang';
+    font-family: '黑体';
     color: #3fcbff;
     font-size: 18px;
     line-height: 20px;

@@ -1,8 +1,8 @@
 ﻿<!--
  * @Author: hp
  * @Date: 2021-03-23 11:07:21
- * @LastEditTime: 2021-03-25 18:03:25
- * @LastEditors: your name
+ * @LastEditTime: 2024-04-17 18:15:36
+ * @LastEditors: Please set LastEditors
  * @Description: 事件告警组件
  * @FilePath: /digital_china/src/components/common/EventWarning.vue
 -->
@@ -31,7 +31,7 @@ import { mapMutations, mapState } from 'vuex';
 export default {
   name: 'eventwarning',
   computed: {
-    ...mapState(['showEventList'])
+    ...mapState(['showEventList']),
   },
   data() {
     return {
@@ -41,12 +41,12 @@ export default {
       detailsStatus: true, // 预警解释显隐
       contentStatus: true, // 预警信息显隐
       bg: '/img/charts/warninghover.png',
-      bgdefault: '/img/charts/warningnormal.png'
+      bgdefault: '/img/charts/warningnormal.png',
     };
   },
   methods: {
     ...mapMutations({
-      handleEventListStatus: 'handleEventListStatus'
+      handleEventListStatus: 'handleEventListStatus',
     }),
     handleEventList(show) {
       this.handleEventListStatus(show);
@@ -59,7 +59,7 @@ export default {
       }
       that.detailsStatus = !that.detailsStatus;
       that.contentStatus = true;
-    }
+    },
   },
   watch: {
     showEventList: {
@@ -67,9 +67,9 @@ export default {
         if (newV === false) {
           this.$refs.eventButton.style.backgroundImage = `url(${this.bgdefault})`;
         }
-      }
-    }
-  }
+      },
+    },
+  },
 };
 </script>
 
@@ -86,7 +86,7 @@ export default {
     height: 100%;
     border: 1px solid #ea4735;
     background: rgba(#7a3e39, 0.2);
-    font-family: 'PingFang SC';
+    font-family: '黑体';
     font-size: 14px;
     & > img {
       display: inline-block;

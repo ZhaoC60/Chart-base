@@ -68,7 +68,7 @@ export default {
             textStyle: {
               // padding: [3, 5],
               fontSize: 15,
-              family: 'PingFang',
+              family: '黑体',
               color: '#f8f8f8',
               borderRadius: 1
             }
@@ -142,7 +142,7 @@ export default {
                       return params.value;
                     },
                     fontSize: '20',
-                    fontFamily: '腾祥智黑简',
+                    fontFamily: '微软雅黑',
                     position: ['1%', '1%'],
                     color: '#f8f8f8',
                     backgroundColor: 'rgba(51,51,51,0.9)'

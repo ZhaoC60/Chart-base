@@ -108,7 +108,7 @@ export default {
     }
 
     .button--block {
-      font-family: '碳纤维正中黑简体';
+      font-family: '黑体';
       transform: translate3d(-6px, -6px, 0);
       transition-property: box-shadow, transform;
       transition-duration: 0.2s;

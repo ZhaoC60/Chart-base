@@ -46,7 +46,7 @@ export default {
           text: this.val + '%',
           textStyle: {
             fontSize: 64,
-            fontFamily: '腾祥智黑简',
+            fontFamily: '微软雅黑',
             fontWeight: 'normal',
             color: '#00ffbf',
           },
@@ -164,7 +164,7 @@ export default {
   position: absolute;
   text-align: center;
   font-size: 90px;
-  font-family: '腾祥智黑简';
+  font-family: '微软雅黑';
   top: 122px;
   left: 7px;
   background-image: -webkit-linear-gradient(top, #fff, #81bac9);

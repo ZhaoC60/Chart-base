@@ -288,13 +288,13 @@ export default {
     background: linear-gradient(to top, #f8f8f8, #fff);
     -webkit-background-clip: text;
     color: transparent;
-    font-family: '腾祥智黑简';
+    font-family: '微软雅黑';
     font-size: 30px;
     margin-bottom: 10px;
   }
   .num {
     font-size: 40px;
-    font-family: '腾祥智黑简';
+    font-family: '微软雅黑';
     text-align: center;
     background: linear-gradient(to top, #f8f8f8, #fff);
     -webkit-background-clip: text;
@@ -302,7 +302,7 @@ export default {
   }
   .unit {
     font-size: 18px;
-    font-family: '腾祥智黑简';
+    font-family: '微软雅黑';
     color: #00bfff;
   }
 }
@@ -351,7 +351,7 @@ export default {
           font-size: 16px;
           top: -7px;
           left: 104%;
-          font-family: '腾祥智黑简';
+          font-family: '微软雅黑';
           background: linear-gradient(to top, #f8f8f8, #fff);
           -webkit-background-clip: text;
           color: transparent;
@@ -361,13 +361,13 @@ export default {
         position: absolute;
         color: #f8f8f8;
         font-size: 16px;
-        font-family: '腾祥智黑简';
+        font-family: '微软雅黑';
         margin-top: -22px;
       }
 
       .num {
         font-size: 28px;
-        font-family: '腾祥智黑简';
+        font-family: '微软雅黑';
         overflow: hidden;
         margin-left: auto;
       }
@@ -398,7 +398,7 @@ export default {
         color: #e9e9e9;
         margin-top: 13px;
         font-size: 28px;
-        font-family: 'DINCond-Medium';
+        font-family: '黑体';
         text-align: center;
         font-weight: '400';
         margin-left: 20px;

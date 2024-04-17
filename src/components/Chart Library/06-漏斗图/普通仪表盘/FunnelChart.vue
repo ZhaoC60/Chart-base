@@ -242,7 +242,7 @@ export default {
     }
     .content-value {
       font-size: 28px;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       display: inline-block;
     }
     .content-unit {
@@ -275,7 +275,7 @@ export default {
     }
     .content-value {
       font-size: 32px;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       display: inline-block;
     }
     .content-unit {

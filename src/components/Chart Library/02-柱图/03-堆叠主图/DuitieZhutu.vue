@@ -160,7 +160,7 @@ export default {
               textStyle: {
                 color: '#f8f8f8',
                 fontSize: 22,
-                fontFamily: 'PingFang',
+                fontFamily: '黑体',
               },
             },
             axisLine: {
@@ -180,7 +180,7 @@ export default {
               color: '#f8f8f8',
               fontSize: 22,
               padding: 2,
-              fontFamily: 'PingFang',
+              fontFamily: '黑体',
             },
             axisLabel: {
               //y轴文字的配置

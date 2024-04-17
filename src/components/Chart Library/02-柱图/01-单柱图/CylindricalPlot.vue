@@ -74,7 +74,7 @@ export default {
           Xfont: {
             color: '#f8f8f8',
             fontSize: 16,
-            fontFamily: '碳纤维正中黑简体',
+            fontFamily: '黑体',
           },
           Yfont: {
             color: '#f8f8f8',
@@ -84,7 +84,7 @@ export default {
           nameTextStyle: {
             color: '#f8f8f8',
             fontSize: 16,
-            fontFamily: '碳纤维正中黑简体',
+            fontFamily: '黑体',
             padding: 2,
           },
         };

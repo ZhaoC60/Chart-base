@@ -97,7 +97,7 @@ a {
         text-align: center;
         color: #f5f5f5;
         font-size: 20px;
-        font-family: '腾祥智黑简';
+        font-family: '微软雅黑';
       }
       .defaultCss {
         text-decoration: none;

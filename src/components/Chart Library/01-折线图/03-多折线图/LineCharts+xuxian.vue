@@ -267,7 +267,7 @@ export default {
               textStyle: {
                 color: '#f8f8f8',
                 fontSize: 16,
-                fontFamily: 'PingFang',
+                fontFamily: '黑体',
               },
             },
             axisLine: {
@@ -287,7 +287,7 @@ export default {
               color: '#f8f8f8',
               fontSize: 16,
               padding: 2,
-              fontFamily: 'PingFang',
+              fontFamily: '黑体',
             },
             axisLabel: {
               formatter: '{value} w',
@@ -324,7 +324,7 @@ export default {
               color: '#f8f8f8',
               fontSize: 16,
               padding: 2,
-              fontFamily: 'PingFang',
+              fontFamily: '黑体',
             },
             axisLine: {
               show: true,

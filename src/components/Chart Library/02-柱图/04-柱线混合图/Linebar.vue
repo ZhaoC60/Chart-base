@@ -157,7 +157,7 @@ export default {
           Xfont: {
             color: '#f8f8f8',
             fontSize: 14,
-            fontFamily: 'PingFang',
+            fontFamily: '黑体',
           },
           Yfont: {
             color: '#f8f8f8',
@@ -168,7 +168,7 @@ export default {
             color: '#f8f8f8',
             fontSize: 16,
             padding: 2,
-            fontFamily: 'PingFang',
+            fontFamily: '黑体',
           },
         };
       },
@@ -287,7 +287,7 @@ export default {
             name: '单位:%',
             nameTextStyle: {
               color: '#f8f8f8',
-              fontFamily: 'PingFang SC',
+              fontFamily: '黑体',
               fontWeight: 'Medium',
               fontSize: 16,
             },
@@ -491,7 +491,7 @@ export default {
       span {
         margin-left: 7px;
         font-size: 22px;
-        font-family: 'PingFang';
+        font-family: '黑体';
         color: #f8f8f8;
       }
     }

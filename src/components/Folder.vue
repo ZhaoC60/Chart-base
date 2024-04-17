@@ -104,7 +104,7 @@ p {
 .tab {
   width: 18%;
   text-align: center;
-  font-family: '腾祥智黑简';
+  font-family: '微软雅黑';
   text-transform: uppercase;
   line-height: 0.8;
   display: inline-block;
@@ -211,7 +211,7 @@ p {
     // filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.15));
     background-image: linear-gradient(#e4e4e4 1px, transparent 1px);
     background-size: 8% 8%, 2px 2px;
-    font-family: '腾祥智黑简';
+    font-family: '微软雅黑';
   }
 }
 

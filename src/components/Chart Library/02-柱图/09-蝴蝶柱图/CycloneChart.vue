@@ -228,7 +228,7 @@ export default {
                 color: '#f8f8f8',
                 fontSize: 22,
                 padding: 2,
-                fontFamily: 'PingFang SC',
+                fontFamily: '黑体',
               },
               axisLine: {
                 show: false,
@@ -450,7 +450,7 @@ li {
     justify-content: space-between;
     width: 100%;
     font-size: 20px;
-    font-family: 'PingFang SC';
+    font-family: '黑体';
     color: #f8f8f8;
   }
   .center {
@@ -461,7 +461,7 @@ li {
     display: flex;
     justify-content: space-between;
     width: 300px;
-    font-family: 'PingFang SC';
+    font-family: '黑体';
     font-size: 24px;
     background: linear-gradient(to bottom, #fff, #abe1f3);
     -webkit-background-clip: text;

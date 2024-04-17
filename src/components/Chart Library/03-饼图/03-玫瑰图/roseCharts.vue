@@ -383,7 +383,7 @@ export default {
       background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
       -webkit-background-clip: text;
       // -webkit-text-fill-color: transparent;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       // margin-right: 20px;
       top: -8px;
     }
@@ -393,7 +393,7 @@ export default {
       top: -5px;
       font-size: 34px;
       color: #dddddd;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       line-height: 40px;
       // margin-right: 20px;
       color: red;
@@ -465,7 +465,7 @@ export default {
       background-image: -webkit-linear-gradient(bottom, #fff, #81bac9);
       -webkit-background-clip: text;
       // -webkit-text-fill-color: transparent;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       // margin-right: 20px;
       top: -8px;
     }
@@ -475,7 +475,7 @@ export default {
       top: -5px;
       font-size: 36px;
       color: #dddddd;
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       line-height: 40px;
       // margin-right: 20px;
       color: red;

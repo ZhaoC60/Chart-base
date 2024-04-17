@@ -154,7 +154,7 @@ export default {
           textStyle: {
             color: '#f8f8f8',
             fontSize: 14,
-            fontFamily: 'PingFang',
+            fontFamily: '黑体',
           },
         },
         series: [
@@ -225,14 +225,14 @@ export default {
     left: 0px;
     top: 0px;
     .title {
-      font-family: '碳纤维正粗黑简体';
+      font-family: '黑体';
       font-size: 30px;
       background-image: -webkit-linear-gradient(top, #fff, #8dedf8);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .percentage {
-      font-family: '腾祥智黑简';
+      font-family: '微软雅黑';
       font-size: 80px;
       background-image: -webkit-linear-gradient(top, #fff, #8dedf8);
       -webkit-background-clip: text;
@@ -266,12 +266,12 @@ export default {
           display: flex;
           flex-shrink: 0;
           flex-wrap: wrap;
-          font-family: 'PingFang SC';
+          font-family: '黑体';
           font-size: 26px;
           color: #f8f8f8;
         }
         .context_per {
-          font-family: '腾祥智黑简';
+          font-family: '微软雅黑';
           font-size: 50px;
         }
       }
